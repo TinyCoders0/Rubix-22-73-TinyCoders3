@@ -1,21 +1,10 @@
 # Rubix-22-73-TinyCoders3
-A application to book a doctor's appointment
-
-
-
-We are not well acquainted with Github, so there were many making and deleting of repositories
-
-As of now we have created a Android application for a local clinic where user can login and book appointment.
-
-update history
-
-we had added 2 module one for user and one admin
-
-we have completed with the home page designing
-
-we made a form for online appointment booking
-
-we added googlemaps api for location
-
-added about us and feedback
-
+An Android Application to book Doctor's Appointment.<br>
+We are not well acquainted with Github,so there were many changes done while updating the repository.<br>
+As of now we have created an Android application for a local clinic where user can Login and Book an Appointment.<br>
+We have created 2 modules i.e one for Doctor and another one for Patient.<br>
+Home Page design has been completed.<br>
+Online appointment booking form feature is also added and that form data can be viewed by the doctor.<br>
+Google map API is used for the Clinic Location.<br>
+About us and Feedback section is provided.<br>
+Currently working on the the Video Call Consultation module.<br>
