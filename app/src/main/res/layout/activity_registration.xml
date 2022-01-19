@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/loginf"
+    tools:context=".RegistrationActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/logo1"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        style="@style/loginHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:layout_marginStart="132dp"
+        android:text="Register"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="250dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="65dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:autofillHints="" />
+
+
+    <EditText
+        android:id="@+id/etUserEmail"
+        android:layout_width="250dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="65dp"
+        android:ems="10"
+        android:hint="@string/e_mail"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:autofillHints="testHint" />
+
+    <EditText
+        android:id="@+id/etUserPassword"
+        android:layout_width="250dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="65dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        style="@style/loginButton"
+        android:layout_marginStart="120dp"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:text="Register"
+        app:backgroundTint="#9BE413"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvUserLogin"
+        style="@style/parent"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text="@string/already_signed_in_login"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="5dp"
+        />
+</LinearLayout>

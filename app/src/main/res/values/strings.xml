@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name" translatable="false">HomeoHeals</string>
+    <string name="todo" translatable="false" />
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="no_of_incorrect_attenpts">No of incorrect attenpts:</string>
+    <string name="new_user_sing_up">New User? Sing Up!!</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="submit">Submit</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="gender">Gender</string>
+    <string name="select_date">Select Date</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email_address">Email Address</string>
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="login_name_hint">Name</string>
+    <string name="login_mobile_number_hint">Mobile Number</string>
+    <string name="e_mail">E-mail</string>
+    <string name="this_is_marquee_text_example_in_android_studio">This is marquee text example in android studio.</string>
+    <string name="welcome_to_homeoheals_application_doctor_tanvi_mahant">Welcome to HomeoHeals Application Doctor Tanvi Mahant !</string>
+    <string name="already_signed_in_login">Already Signed in? Login</string>
+    <string name="fs18if018_gmail_com">fs18if018@gmail.com</string>
+    <string name="hyperlink1"> https://www.facebook.com/DrTanviHomeoHeals/</string>
+    <string name="hyperlink2"> https://www.instagram.com/homeoheals/</string>
+    <string name="hyperlink4"> https://www.youtube.com/c/HomeoHeals</string>
+    <string name="hyperlink3">Location: https://www.google.com/maps/dir//HomeoHeals+</string>
+</resources>

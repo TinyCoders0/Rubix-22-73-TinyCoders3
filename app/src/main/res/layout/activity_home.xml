@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Home"
+    tools:openDrawer="start">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tb1"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/design_default_color_background"
+            android:elevation="4dp">
+        </androidx.appcompat.widget.Toolbar>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp">
+
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/image_slider"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            app:iss_auto_cycle="true"
+            android:layout_marginTop="55dp"
+            app:iss_period="1000"
+            app:iss_delay="0"/>
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="330dp"
+            android:padding="10dp"
+            android:text="ARE YOU SUFFERING FROM ANY ILLNESS??"
+            android:textSize="20sp"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            android:singleLine="true"
+            android:scrollHorizontally="true"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/fever"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="360dp"
+            android:layout_marginLeft="14dp"
+            android:src="@drawable/fever"
+            />
+        <TextView
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="420dp"
+            android:textAlignment="center"
+            android:text="Fever"
+            android:textSize="15sp" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="360dp"
+            android:layout_marginLeft="110dp"
+            android:src="@drawable/astma"
+            />
+        <TextView
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="420dp"
+            android:textAlignment="center"
+            android:text="Asthma"
+            android:textSize="15sp" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="360dp"
+            android:layout_marginLeft="200dp"
+            android:src="@drawable/depression"/>
+        <TextView
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="420dp"
+            android:textAlignment="center"
+            android:text="Depression"
+            android:textSize="15sp" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="360dp"
+            android:layout_marginLeft="290dp"
+            android:src="@drawable/acene"/>
+        <TextView
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="420dp"
+            android:textAlignment="center"
+            android:text="Acne"
+            android:textSize="15sp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/fever1"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="460dp"
+            android:layout_marginLeft="14dp"
+            android:src="@drawable/wp"
+            />
+        <TextView
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="520dp"
+            android:textAlignment="center"
+            android:text="Women problem"
+            android:textSize="15sp" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="460dp"
+            android:layout_marginLeft="110dp"
+            android:src="@drawable/hf"
+            />
+        <TextView
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="520dp"
+            android:textAlignment="center"
+            android:text="HairFall"
+            android:textSize="15sp" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="460dp"
+            android:layout_marginLeft="200dp"
+            android:src="@drawable/diarrhea"/>
+        <TextView
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="520dp"
+            android:textAlignment="center"
+            android:text="Diarrhea"
+            android:textSize="15sp" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="460dp"
+            android:layout_marginLeft="290dp"
+            android:src="@drawable/bp"/>
+        <TextView
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="520dp"
+            android:textAlignment="center"
+            android:text="Blood Pressure"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AND MANY MORE..."
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            android:layout_marginTop="570dp"/>
+
+
+        <ImageView
+            android:id="@+id/youtube"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="550dp"
+            android:layout_marginEnd="300dp"
+            android:layout_marginRight="300dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ytlogo"
+            android:contentDescription="@string/todo"
+            tools:ignore="ContentDescription,HardcodedText"
+            android:adjustViewBounds="true"
+            />
+
+        <ImageView
+            android:id="@+id/facebook"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="550dp"
+            android:layout_marginEnd="160dp"
+            android:layout_marginRight="160dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/fblogo"
+            android:contentDescription="@string/todo"
+            tools:ignore="ContentDescription"
+            android:adjustViewBounds="true"
+            />
+        <ImageView
+            android:id="@+id/instagram"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="290dp"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="550dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginRight="28dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/instalogo"
+            android:contentDescription="@string/todo"
+            tools:ignore="ContentDescription"
+            android:adjustViewBounds="true"
+            />
+
+
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/drawer_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

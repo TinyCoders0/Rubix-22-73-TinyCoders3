@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:isScrollContainer="true"
+    android:orientation="vertical"
+    tools:context=".aboutUs">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/tm"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="10dp"
+        android:text="Dr.Tanvi Mahant "
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/tm"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginLeft="10dp"
+        android:text="M.D.Homoeopath Mumbai | Practice of Medicine"/>
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp"
+        android:fontFamily="@font/tm"
+        android:text="Founder and Owner of HomeoHeals Clinic @ Malad (West) \nAssistant Professor @ C.M.P.H. Medical College, Vile Parle (West) \nHon. Physician @ Shree Mumbadevi Homoeopathic Hospital \n "
+        android:textSize="11sp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="11sp"
+        android:fontFamily="@font/tm"
+        android:text="      Dr. Tanvi Mahant is a well-known homoeopath practicing in Mumbai since 2013 and has clinical expertise in treating a number of acute and chronic diseases like allergy, paediatric diseases, migraine, skin diseases, PCOS, Menstrual Problems, Infertility, Orthopaedic cases, thyroid problems, etc. \n\n       YouTube channel HomeoHeals is a platform created by Dr.Tanvi Mahant having 50+ videos which focus on spreading awareness about Health, Wellness, and Homeopathy. She is also very active on Facebook and Instagram and shares health tips, videos regularly on these platforms as well for the benefit of the society." />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp">
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="38dp"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/tm"
+        android:text="\nFor online Consultation you can call/WhatsApp: "/>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/blue"
+            android:text="9892245776" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:text="Facebook:"></TextView>
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:autoLink="web"
+        android:textSize="11sp"
+        android:textColorLink="@color/blue"
+        android:fontFamily="@font/tm"
+        android:text="@string/hyperlink1" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:text="Instagram:"></TextView>
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:textSize="11sp"
+        android:fontFamily="@font/tm"
+        android:textColorLink="@color/blue"
+        android:autoLink="web"
+        android:text="@string/hyperlink2" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:text="YouTube:"></TextView>
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:textSize="11sp"
+        android:fontFamily="@font/tm"
+        android:textColorLink="@color/blue"
+        android:autoLink="web"
+        android:text="@string/hyperlink4" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="11sp"
+        android:layout_marginLeft="8dp"
+        android:fontFamily="@font/tm"
+        android:textStyle="bold"
+        android:text="\nHomeoHeals Homoeopathic Clinic: "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:textSize="11sp"
+        android:layout_marginLeft="5dp"
+        android:fontFamily="@font/tm"
+        android:text="Address: G-15, Ground Floor, Kamla Jainson, Jakeria Road, Malad (West), Mumbai - 400 064\n"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:padding="5dp"
+        android:textSize="11sp"
+        android:layout_marginLeft="5dp"
+        android:fontFamily="@font/tm"
+        android:text="Timings: 6 pm to 9 pm (Mon-Sat)"/>
+
+</LinearLayout>
+</ScrollView>

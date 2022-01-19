@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "682468645222",
+    "project_id": "homeoheals-c5e84",
+    "storage_bucket": "homeoheals-c5e84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682468645222:android:a68f4d0f1d734cb7fe90a7",
+        "android_client_info": {
+          "package_name": "com.example.homeoheals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682468645222-eqi7p84kf1fcleren7dkabqn4mi2p082.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcpFlSP5NqdfoyDEwtM_YIplYAbGWtAac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682468645222-eqi7p84kf1fcleren7dkabqn4mi2p082.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
